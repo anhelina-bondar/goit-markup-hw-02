@@ -4,11 +4,47 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+ul {
+  list-style-type: none;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #4d5ae5;
+  letter-spacing: 3%;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-name {
+  color: #2e2f42;
+}
+
+.logo:hover,
+.logo-name:hover {
+  color: red;
+}
+
 address {
   font-style: normal;
 }
 
-.solution_title {
+.email,
+.tel {
+  text-decoration: none;
+}
+
+.email:hover:focus {
+  color: #404bbf;
+}
+
+.tel:hover:focus {
+  color: #404bbf;
+}
+
+.solution-title {
   font-weight: 700;
   font-size: 56px;
   letter-spacing: 2%;
@@ -17,7 +53,7 @@ address {
   background-color: #2e2f42;
 }
 
-.btn_open_service {
+.btn-open-service {
   cursor: pointer;
   font-size: 16px;
   letter-spacing: 4%;
@@ -31,20 +67,20 @@ address {
   letter-spacing: 2%;
 }
 
-.descr_features {
+.descr-features {
   color: #434455;
   font-size: 20px;
   letter-spacing: 2%;
 }
 
-.secrtion_title {
+.secrtion-title {
   font-weight: 700;
   color: #2e2f42;
   font-size: 36px;
   letter-spacing: 2%;
   text-transform: capitalize;
 }
-.team_name,
+.team-name,
 .portfolio {
   font-weight: 400;
   color: #2e2f42;
@@ -52,15 +88,14 @@ address {
   letter-spacing: 2%;
 }
 
-.team_position,
-.descr_portfolio {
-  font-weight: 400;
+.team-position,
+.descr-portfolio {
   line-height: 24px;
   letter-spacing: 2%;
   font-size: 16px;
 }
 
-.invocation_descr {
+.invocation-descr {
   color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
