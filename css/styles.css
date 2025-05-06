@@ -1,7 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 address {
   font-style: normal;
@@ -34,4 +35,35 @@ address {
   color: #434455;
   font-size: 20px;
   letter-spacing: 2%;
+}
+
+.secrtion_title {
+  font-weight: 700;
+  color: #2e2f42;
+  font-size: 36px;
+  letter-spacing: 2%;
+  text-transform: capitalize;
+}
+.team_name,
+.portfolio {
+  font-weight: 400;
+  color: #2e2f42;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+
+.team_position,
+.descr_portfolio {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  font-size: 16px;
+}
+
+.invocation_descr {
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 24px;
 }
