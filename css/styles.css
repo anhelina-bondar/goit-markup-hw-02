@@ -7,13 +7,15 @@ body {
 
 ul {
   list-style-type: none;
+  text-decoration: none;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   color: #4d5ae5;
-  letter-spacing: 3%;
-  line-height: 21px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -25,6 +27,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 /* .logo:hover,
@@ -38,25 +41,32 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-address {
-  font-style: normal;
-}
-
-.user-email,
-.user-tel {
   text-decoration: none;
 }
 
-.user-email:hover:focus,
-.user-tel:hover:focus {
+.user-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.user-address-item {
+  text-decoration: none;
+}
+
+.user-address-item:hover:focus {
   color: #404bbf;
 }
 /* 
  {
   color: #404bbf;
 } */
+
+.header-section {
+  background-color: #2e2f42;
+}
 
 .solution-title {
   font-weight: 700;
@@ -65,7 +75,6 @@ address {
   text-align: center;
   color: #ffffff;
   line-height: 1.07;
-  background-color: #2e2f42;
 }
 
 .btn-open-service {
@@ -79,7 +88,10 @@ address {
   background-color: #4d5ae5;
 }
 
-.title_features {
+.btn-open-service:hover:focus {
+  background-color: #404bbf;
+}
+.title-features {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -94,11 +106,11 @@ address {
   letter-spacing: 0.02em;
 }
 
-.secrtion-title {
+.section-title {
   font-weight: 700;
   color: #2e2f42;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
