@@ -20,85 +20,113 @@ ul {
 
 .logo-name {
   color: #2e2f42;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.logo:hover,
+/* .logo:hover,
 .logo-name:hover {
   color: red;
+} */
+
+.header-nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 address {
   font-style: normal;
 }
 
-.email,
-.tel {
+.user-email,
+.user-tel {
   text-decoration: none;
 }
 
-.email:hover:focus {
+.user-email:hover:focus,
+.user-tel:hover:focus {
   color: #404bbf;
 }
-
-.tel:hover:focus {
+/* 
+ {
   color: #404bbf;
-}
+} */
 
 .solution-title {
   font-weight: 700;
   font-size: 56px;
-  letter-spacing: 2%;
-  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
+  line-height: 1.07;
   background-color: #2e2f42;
 }
 
 .btn-open-service {
   cursor: pointer;
   font-size: 16px;
+  font-weight: 500;
   letter-spacing: 4%;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
 }
 
 .title_features {
   font-size: 20px;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
 .descr-features {
   color: #434455;
-  font-size: 20px;
-  letter-spacing: 2%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .secrtion-title {
   font-weight: 700;
   color: #2e2f42;
   font-size: 36px;
-  letter-spacing: 2%;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
 }
 .team-name,
 .portfolio {
-  font-weight: 400;
+  font-weight: 500;
   color: #2e2f42;
   font-size: 20px;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .team-position,
 .descr-portfolio {
   line-height: 24px;
-  letter-spacing: 2%;
+  font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .invocation-descr {
   color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
-  letter-spacing: 2%;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
