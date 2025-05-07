@@ -88,7 +88,8 @@ ul {
   background-color: #4d5ae5;
 }
 
-.btn-open-service:hover:focus {
+.btn-open-service:hover,
+.btn-open-service:focus {
   background-color: #404bbf;
 }
 .title-features {
@@ -104,6 +105,10 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.team-section {
+  background-color: #f4f4fd;
 }
 
 .section-title {
