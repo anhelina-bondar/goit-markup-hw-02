@@ -8,6 +8,14 @@ body {
 ul li {
   list-style-type: none;
 }
+
+ul li a,
+.logo {
+  text-decoration: none;
+}
+
+/* header */
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -16,7 +24,6 @@ ul li {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
 .logo-name-header {
@@ -29,7 +36,6 @@ ul li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none;
 }
 
 .header-nav-item:hover,
@@ -54,14 +60,13 @@ ul li {
 .user-address-item:focus {
   color: #404bbf;
 }
-/* 
- {
-  color: #404bbf;
-} */
 
 .header-section {
   background-color: #2e2f42;
 }
+
+/* main */
+/* section 1 */
 
 .solution-title {
   font-weight: 700;
@@ -88,6 +93,8 @@ ul li {
   background-color: #404bbf;
 }
 
+/* section 2 */
+
 .title-features {
   font-size: 20px;
   line-height: 1.2;
@@ -103,6 +110,8 @@ ul li {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* section 3 */
 
 .team-section {
   background-color: #f4f4fd;
@@ -122,7 +131,26 @@ ul li {
   background-color: #ffffff;
 }
 
-.team-name,
+.team-name {
+  font-weight: 500;
+  color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team-position {
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* section 3 */
+
 .portfolio {
   font-weight: 500;
   color: #2e2f42;
@@ -132,7 +160,6 @@ ul li {
   text-align: center;
 }
 
-.team-position,
 .descr-portfolio {
   line-height: 24px;
   font-weight: 400;
@@ -142,9 +169,12 @@ ul li {
   text-align: center;
 }
 
+/* footer */
+
 .footer-section {
   background-color: #2e2f42;
 }
+
 .invocation-descr {
   color: #f4f4fd;
   font-weight: 400;
