@@ -66,6 +66,7 @@ ul li a,
 }
 
 /* main */
+
 /* section 1 */
 
 .solution-title {
@@ -81,7 +82,6 @@ ul li a,
   cursor: pointer;
   font-size: 16px;
   font-weight: 500;
-  letter-spacing: 4%;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
